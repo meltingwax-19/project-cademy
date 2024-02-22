@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'Raleway';
+  src: url('../cheatsheet-cademy/fonts/raleway-italic-variablefont_wght-webfont.woff2') format('woff2'),
+    url('../cheatsheet-cademy/fonts/raleway-italic-variablefont_wght-webfont.woff') format('woff'),
+    url('../cheatsheet-cademy/fonts/raleway-italic-variablefont_wght-webfont.ttf') format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: 'Raleway', 'san-serif';
+  background-color: aqua;
+  margin: 20px auto;
+}
+
+.main-header {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.section-header {
+  font-size: larger;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.main-header,
+.section-header {
+  text-align: center;
+}
+
+.table {
+  margin: 0 auto;
+  border: 2px solid red;
+  border-collapse: collapse;
+}
+
+.rowheader {
+  width: auto;
+  text-align: center;
+  padding: 8px;
+  background-color: blue;
+  font-size: medium;
+  border: 1px solid red;
+}
+
+.body-text {
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1.4;
+  letter-spacing: 0.8px;
+}
+
+#white-background {
+  background-color: beige;
+}
+
+.body-text td {
+  border-bottom: 1px solid red;
+}
