@@ -1,0 +1,269 @@
+/*Raleway font-1*/
+@font-face {
+  font-family: 'Raleway';
+  src: url('../design-system-cademy/fonts/raleway-italic-variablefont_wght-webfont.woff2') format('woff2'),
+    url('../design-system-cademy/fonts/raleway-italic-variablefont_wght-webfont.woff') format('woff'),
+    url('../design-system-cademy/fonts/Raleway-Italic-VariableFont_wght.ttf') format('truetype');
+}
+
+/*Madimi One font-2*/
+@font-face {
+  font-family: 'Madimi One';
+  src: url('../design-system-cademy/fonts/MadimiOne-Regular.ttf') format('truetype');
+}
+
+/*Engagement font-3*/
+@font-face {
+  font-family: 'Engagement';
+  src: url('../design-system-cademy/fonts/Engagement-Regular.ttf') format('truetype');
+}
+
+/*Langar font-4*/
+@font-face {
+  font-family: 'Langar';
+  src: url('../design-system-cademy/fonts/Langar-Regular.ttf') format('truetype');
+}
+
+body {
+  font-family: Arial sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  font-size: medium;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px, 5px;
+}
+
+header,
+main,
+footer {
+  margin-left: 50px;
+}
+
+.section1,
+.section2,
+.section3 {
+  border: 1px solid gray;
+  margin-top: 7px;
+}
+
+h3 {
+  font-size: larger;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h3,
+.section2 p,
+.section3 p {
+  margin-left: 10px;
+}
+
+.maroon,
+.yellow,
+.green,
+.blue,
+.orange,
+.lilac {
+  width: 170px;
+  height: 80px;
+  font-size: small;
+  text-align: center;
+  line-height: 0.5;
+  padding-top: 5px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.maroon {
+  background-color: #ae445a;
+  color: white;
+}
+
+.yellow {
+  background-color: #f8de22;
+  color: black;
+}
+
+.green {
+  background-color: #008000;
+  color: black;
+}
+
+.blue {
+  background-color: #0000ff;
+  color: white;
+}
+
+.orange {
+  background-color: #ffa500;
+  color: black;
+}
+
+.lilac {
+  background-color: #c8a2c8;
+  color: black;
+}
+
+div {
+  font-size: small;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.raleway p {
+  font-family: 'Raleway';
+}
+
+.madimi-one p {
+  font-family: 'Madimi One';
+}
+
+.engagement p {
+  font-family: 'Engagement';
+}
+
+.langar p {
+  font-family: 'Langar';
+}
+
+.font-name {
+  text-decoration: underline;
+}
+
+/*RALEWAY STYLES*/
+.normal-style {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  /* Normal weight */
+  font-style: normal;
+  /* Normal style */
+}
+
+.bold-style {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  /* Bold weight */
+  font-style: normal;
+  /* Normal style */
+}
+
+.italic-style {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  /* Normal weight */
+  font-style: italic;
+  /* Italic style */
+}
+
+/*MADIMI ONE STYLES*/
+.normal-style2 {
+  font-family: 'Madimi One', sans-serif;
+  font-weight: 400;
+  /* Normal weight */
+  font-style: normal;
+  /* Normal style */
+}
+
+.bold-style2 {
+  font-family: 'Madimi One', sans-serif;
+  font-weight: 700;
+  /* Bold weight */
+  font-style: normal;
+  /* Normal style */
+}
+
+.italic-style2 {
+  font-family: 'Madimi One', sans-serif;
+  font-weight: 400;
+  /* Normal weight */
+  font-style: italic;
+  /* Italic style */
+}
+
+/*ENGAGEMENT STYLES*/
+.normal-style3 {
+  font-family: 'Engagement', sans-serif;
+  font-weight: 400;
+  /* Normal weight */
+  font-style: normal;
+  /* Normal style */
+}
+
+.bold-style3 {
+  font-family: 'Engagement', sans-serif;
+  font-weight: 700;
+  /* Bold weight */
+  font-style: normal;
+  /* Normal style */
+}
+
+.italic-style3 {
+  font-family: 'Engagement', sans-serif;
+  font-weight: 400;
+  /* Normal weight */
+  font-style: italic;
+  /* Italic style */
+}
+
+/*LANGAR STYLES*/
+.normal-style4 {
+  font-family: 'Langar', sans-serif;
+  font-weight: 400;
+  /* Normal weight */
+  font-style: normal;
+  /* Normal style */
+}
+
+.bold-style4 {
+  font-family: 'Langar', sans-serif;
+  font-weight: 700;
+  /* Bold weight */
+  font-style: normal;
+  /* Normal style */
+}
+
+.italic-style4 {
+  font-family: 'Langar', sans-serif;
+  font-weight: 400;
+  /* Normal weight */
+  font-style: italic;
+  /* Italic style */
+}
+
+footer {
+  font-size: small;
+  font-style: italic;
+  font-weight: 700;
+  color: red;
+  border: 1px solid black;
+  background-color: aqua;
+  text-align: center;
+}
+
+.H1 {
+  font-size: 26px;
+  font-weight: 900;
+}
+
+.H3 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.paragraph-text {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.foot {
+  font-size: small;
+  font-weight: 700;
+  font-style: italic;
+}
